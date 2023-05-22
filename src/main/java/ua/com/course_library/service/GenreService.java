@@ -15,7 +15,7 @@ public class GenreService {
         this.genreRepository = genreRepository;
     }
 
-    List<Genre> getAllGenre(){
+    public List<Genre> getAllGenre(){
         /*List<Genre> genres = new ArrayList<>();
         genres = genreRepository.findAll();
         return genres;*/

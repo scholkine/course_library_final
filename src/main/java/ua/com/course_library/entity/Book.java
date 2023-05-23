@@ -24,4 +24,7 @@ public class Book {
     private Genre genre;
     @OneToMany(mappedBy = "book")
     private List<AbonenmentHasBook> abonenmentHasBookList;
+    @ManyToOne
+    @JoinColumn(name = "reading_id")
+    private ReadingHall readingHall;
 }
